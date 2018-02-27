@@ -12,10 +12,10 @@ $(document).ready(function() {
   $(".number").click(function() {
     if (isOpr) {
       secondNum += this.value;
-      $("#second-number").html(secondNum);
+      $("#second-number").text(secondNum);
     } else {
       firstNum += this.value;
-      $("#first-number").html(firstNum);
+      $("#first-number").text(firstNum);
     }
   });
 
@@ -24,7 +24,7 @@ $(document).ready(function() {
   $(".operator").click(function() {
     isOpr = true;
     operator = this.value;
-    $("#operator").html($(this).text());
+    $("#operator").text($(this).text());
   });
 
   //Click event for button with equal class.
