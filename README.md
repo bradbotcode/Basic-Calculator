@@ -1,2 +1,0 @@
-# Basic-Calculator
-jQuery calculator 
